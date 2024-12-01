@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    color: whitesmoke;
+}
+
+.black {
+    background-color: black;
+}
+
+.tx-white {
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.gray {
+    background-color: rgb(33, 33, 33);
+}
+
+.tx-red {
+    color: red;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.mar-t {
+    margin-top: 5px;
+}
+
+.aling-center {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.red {
+    background-color: red;
+}
+
+.padd-b {
+    padding-bottom: 20px;
+}
+
+.h1 {
+    background-image: linear-gradient(50deg, rgb(156, 53, 122), rgb(145, 194, 61), gray);
+    width: 220px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    gap: 60px;
+    display: flex;
+    height: 50px;
+    border-radius: 50px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 150px;
+    width: 536px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid greenyellow;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.aboutme {
+    color: white;
+    padding: 20px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.padd-l {
+    padding-left: 20px;
+}
+
+.for_info {
+    background-color: rgb(60, 60, 60);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nli {
+    padding: 5px;
+}
+
+
+@media (max-width:800px) {
+
+    .h1 {
+        width: 160px;
+        font-size: 24px;
+    }
+
+    .date {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .indate {
+        height: 20px;
+        width: 140px;
+        font-size: 20px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .taskbar {
+        width: 500px;
+    }
+
+    #more {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    ul{
+        gap: 25px;
+        display: flex;
+        width: 354px;
+    }
+    
+    a{
+       font-size: 17px;
+    }
+    
+}
+
+
+
+
+@media (max-width:650px) {
+
+    .h1 {
+        width: 122px;
+        font-size: 17px;
+    }
+
+    .date {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .indate {
+        height: 20px;
+        width: 110px;
+        font-size: 15px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .taskbar {
+        width: 300px;
+        height: 40px;
+        font-size: 25px;
+    }
+
+    #more {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    ul{
+        gap: 10px;
+        display: flex;
+        width: 264px;
+    }
+    
+    a{
+       font-size: 14px;
+    }
+}
+
+@media (max-width:450px){
+    ul{
+        gap:5px;
+        display: flex;
+        width: 228px;
+    }
+    
+    a{
+       font-size: 13px;
+    }
+}

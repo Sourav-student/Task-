@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System - Made For You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flex2">
+        <div class="h1">SuccessTracker</div>
+        <ul>
+            <a href="/home.html">
+                <li>Home</li>
+            </a>
+            <a href="/index.html">
+                <li>Taskbar</li>
+            </a>
+            <a href="/About_us.html">
+                <li>About me</li>
+            </a>
+            <a href="/How_to_manage_task.html">
+                <li>Manage Tasks</li>
+            </a>
+        </ul>
+    </div>
+    <main>
+        <div class="flax" style=" padding: 100px;
+    padding-bottom: 30px;">
+            <p class="date">Date</p>
+            <input class="indate" type="date">
+        </div>
+
+        <div class="flex">
+            <h2>Let's Write Your Today Tasks</h2>
+            <div id="generate" class="flex">
+
+                <div class="flax">
+                    <label for="task">
+                        <input type="text" name="taskbar1" class="taskbar">
+                    </label>
+                    <input type="checkbox" class="check">
+                    <p id="completed">completed</p>
+                </div>
+
+                <div class="flax">
+                    <label for="task">
+                        <input type="text" name="taskbar2" class="taskbar">
+                    </label>
+                    <input type="checkbox" class="check">
+                    <p id="completed">completed</p>
+                </div>
+
+                <div class="flax">
+                    <label for="task">
+                        <input type="text" name="taskbar2" class="taskbar">
+                    </label>
+                    <input type="checkbox" class="check">
+                    <p id="completed">completed</p>
+                </div>
+
+                <div class="flax">
+                    <label for="task">
+                        <input type="text" name="taskbar2" class="taskbar">
+                    </label>
+                    <input type="checkbox" class="check">
+                    <p id="completed">completed</p>
+                </div>
+
+                <div class="flax">
+                    <label for="task">
+                        <input type="text" name="taskbar3" class="taskbar">
+                    </label>
+                    <input type="checkbox" class="check">
+                    <p id="completed">completed</p>
+                </div>
+            </div>
+            <div id="Hello" class="flex" style="display: none;"></div>
+            <div id="Hello2" class="flex" style="display: none;"></div>
+            <div id="Hello3" class="flex" style="display: none;"></div>
+            <div id="Hello4" class="flex" style="display: none;"></div>
+            <div id="Hello5" class="flex" style="display: none;"></div>
+            <button id="more">Add More Taskbar</button>
+            <button id="more2" style="display: none;">Add More Taskbar</button>
+            <button id="more3" style="display: none;">Add More Taskbar</button>
+            <button id="more4" style="display: none;">Add More Taskbar</button>
+            <button id="more5" style="display: none;">Add More Taskbar</button>
+            <p style="font-size: larger;font-weight: bolder;color: aliceblue;background-color: blue;" id="alart">Click
+                'Save' to export your tasks as a PDF. Otherwise, the tasks will be cleared if the page is reloaded.</p>
+            <button id="save" type="submit">
+                <p>Save</p><img src="save.svg">
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <p>This is &copy; copyright by SuccessTracker</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

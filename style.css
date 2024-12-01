@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+}
+
+main, footer{
+    background-color: rgb(33, 33, 33);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.flex2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.flax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 9px;
+}
+
+ul{
+    list-style: none;
+    gap: 60px;
+    display: flex;
+    height: 50px;
+    border-radius: 50px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 150px;
+    width: 536px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid greenyellow;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+   text-decoration: none;
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+}
+
+#completed{
+    display: none;
+}
+
+.date {
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-image: linear-gradient(180deg, orange, gray);
+}
+
+.indate {
+    height: 40px;
+    width: 220px;
+    font-size: 30px;
+}
+
+.h1 {
+    background-image: linear-gradient(50deg, rgb(156, 53, 122), rgb(145, 194, 61), gray);
+    width: 220px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+h2{
+    color:white;
+    background-image: linear-gradient(30deg,orange, gray);
+    border-radius: 5px;
+}
+
+button {
+    background-image: linear-gradient(180deg, rgb(18, 99, 149), rgb(10, 228, 159));
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.taskbar {
+    width: 700px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.check {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#more {
+    background-color: rgb(13, 85, 255);
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#save {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#save p {
+    margin: 0;
+    padding: 0;
+}
+
+#save img {
+    padding-top: 3px;
+}
+
+footer p{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+p{
+    color: aliceblue;
+}
+
+
+
+@media (max-width:800px) {
+
+    .h1 {
+        width: 160px;
+        font-size: 24px;
+    }
+
+    .date {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .indate {
+        height: 20px;
+        width: 140px;
+        font-size: 20px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .taskbar {
+        width: 500px;
+    }
+
+    #more {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    ul{
+        gap: 25px;
+        display: flex;
+        width: 354px;
+    }
+    
+    a{
+       font-size: 17px;
+    }
+    
+}
+
+
+
+
+@media (max-width:650px) {
+
+    .h1 {
+        width: 122px;
+        font-size: 17px;
+    }
+
+    .date {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .indate {
+        height: 20px;
+        width: 110px;
+        font-size: 15px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .taskbar {
+        width: 300px;
+        height: 40px;
+        font-size: 25px;
+    }
+
+    #more {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    ul{
+        gap: 10px;
+        display: flex;
+        width: 264px;
+    }
+    
+    a{
+       font-size: 13px;
+    }
+}
+
+@media (max-width:480px){
+    ul{
+        gap:5px;
+        display: flex;
+        width: 228px;
+    }
+    
+    a{
+       font-size: 12px;
+    }
+    .taskbar{
+        width: 280px;
+    }
+}

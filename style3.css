@@ -1,0 +1,215 @@
+pre {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 20px;
+    cursor: pointer;
+    background-image: repeating-linear-gradient(324deg, rgb(184, 22, 22), transparent 100px);
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.image1,
+.image3 {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    position: relative;
+    top: 50px;
+    transition: all 1s linear;
+}
+
+.image1 img {
+    /* animation: trans 3s linear 0s; */
+    border-radius: 20px;
+    height: 400px;
+    width: 500px;
+}
+
+.text1 {
+    position: relative;
+    right: 200px;
+    /* animation: trans2 3s linear 0s; */
+}
+
+.image2,
+.image4 {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    position: relative;
+    top: 50px;
+    transition: all 1s linear;
+}
+
+.image2 img {
+    /* animation: trans3 3s linear 1s; */
+    border-radius: 20px;
+    position: relative;
+    left: 500px;
+    height: 400px;
+    width: 500px;
+}
+
+.image3 img {
+    /* animation: trans 3s linear 1.2s; */
+    border-radius: 20px;
+    height: 400px;
+    width: 500px;
+}
+
+.text2 {
+    position: relative;
+    right: 200px;
+    /* animation: trans2 3s linear 1.2s; */
+}
+
+.image4 img {
+    /* animation: trans3 3s linear 1.3s; */
+    border-radius: 20px;
+    position: relative;
+    left: 500px;
+    height: 400px;
+    width: 500px;
+}
+
+@media (max-width:1000px) {
+
+    .image1,
+    .image3 {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image1 img {
+        /* animation: trans 3s linear 0s; */
+        border-radius: 20px;
+        position: relative;
+        left: 0px;
+        height: 250px;
+        width: 300px;
+    }
+
+    .text1 {
+        font-size: 12px;
+        position: relative;
+        right: 0px;
+        /* animation: trans2 3s linear 0s; */
+    }
+
+    .image2,
+    .image4 {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image2 img {
+        /* animation: trans3 3s linear 1s; */
+        border-radius: 20px;
+        position: relative;
+        left: 150px;
+        height: 250px;
+        width: 300px;
+    }
+
+    .image3 img {
+        /* animation: trans 3s linear 1.2s; */
+        border-radius: 20px;
+        position: relative;
+        left: 0px;
+        height: 250px;
+        width: 300px;
+    }
+
+    .text2 {
+        font-size: 12px;
+        position: relative;
+        right: 0px;
+        /* animation: trans2 3s linear 1.2s; */
+    }
+
+    .image4 img {
+        /* animation: trans3 3s linear 1.3s; */
+        border-radius: 20px;
+        position: relative;
+        left: 150px;
+        height: 250px;
+        width: 300px;
+    }
+}
+
+@media (max-width:800px) {
+    pre {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .image1,
+    .image3 {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image1 img {
+        /* animation: trans 3s linear 0s; */
+        border-radius: 20px;
+        position: relative;
+        left: 0px;
+        height: 300px;
+        width: 400px;
+    }
+
+    .text1 {
+        display: none;
+    }
+
+    .image2,
+    .image4 {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image2 img {
+        /* animation: trans3 3s linear 1s; */
+        border-radius: 20px;
+        position: relative;
+        left: 0px;
+        height: 300px;
+        width: 400px;
+    }
+
+    .image3 img {
+        /* animation: trans 3s linear 1.2s; */
+        border-radius: 20px;
+        position: relative;
+        left: 0px;
+        height: 300px;
+        width: 400px;
+    }
+
+    .text2 {
+        display: none;
+    }
+
+    .image4 img {
+        /* animation: trans3 3s linear 1.3s; */
+        border-radius: 20px;
+        position: relative;
+        left: 0px;
+        height: 300px;
+        width: 400px;
+    }
+
+}
